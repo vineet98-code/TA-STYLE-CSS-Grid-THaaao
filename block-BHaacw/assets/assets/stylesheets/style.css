@@ -1,0 +1,250 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Archivo", sans-serif;
+  background-color: #3A4A4F;
+  text-align: center;
+}
+
+.padding {
+  padding: 60px 0;
+}
+
+.font-0 {
+  font-size: 0;
+}
+
+a, li {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  margin: 20px 0;
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+h6 {
+  font-size: 0.5rem;
+}
+
+/* Column */
+.flex-10 {
+  flex: 0 1 10%;
+}
+
+.flex-19 {
+  flex: 0 1 19%;
+}
+
+.flex-23 {
+  flex: 0 1 23%;
+}
+
+.flex-32 {
+  flex: 0 1 32%;
+}
+
+.flex-30 {
+  flex: 0 1 30%;
+}
+
+.flex-35 {
+  flex: 0 1 35%;
+}
+
+.flex-45 {
+  flex: 0 1 45%;
+}
+
+.flex-33 {
+  flex: 0 1 33%;
+}
+
+.flex-35 {
+  flex: 0 1 35%;
+}
+
+.flex-40 {
+  flex: 0 1 40%;
+}
+
+.flex-19 {
+  flex: 0 1 19%;
+}
+
+.flex-23 {
+  flex: 0 1 23%;
+}
+
+.flex-35 {
+  flex: 0 1 35%;
+}
+
+.flex-45 {
+  flex: 0 1 45%;
+}
+
+.flex-46 {
+  flex: 0 1 45%;
+}
+
+.flex-32 {
+  flex: 0 1 32%;
+}
+
+.flex-20 {
+  flex: 0 1 20%;
+}
+
+.flex-48 {
+  flex: 0 1 49%;
+}
+
+/* FLEX-BOX */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.item {
+  padding: 1rem;
+  background-color: #0095BE;
+  border: 1px solid rgba(39, 39, 39, 0.9);
+  text-align: center;
+  font-weight: 700;
+  font-size: 1, 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid red;
+  background-color: #FFFFFF;
+}
+
+.header {
+  border-top: 5px solid green;
+}
+
+.nav-bar ul li {
+  padding: 15px 0;
+  margin-left: 100px;
+  margin-right: 40px;
+}/*# sourceMappingURL=style.css.map */
